@@ -1,16 +1,9 @@
-cp /root/essentials/setup_cpp.bat /root/essentials/logs
+cp /workspaces/Cpp/projectLyla/SourceCode/scode_name.cpp  /workspaces/Cpp/projectLyla/essentials/linker
 
-cp /storage/emulated/0/Download/California/projectLyla/Source_Code/scode_name.cpp  /root/projectLyla/Source_Code
+cp /workspaces/Cpp/projectLyla/HeaderFiles/hfile_name.h /workspaces/Cpp/projectLyla/essentials/linker
 
-cp /storage/emulated/0/Download/California/projectLyla/Source_Code/scode_name.cpp  /root/projectLyla/Linkers
+g++ /workspaces/Cpp/projectLyla/essentials/linker/scode_name.cpp -o /workspaces/Cpp/projectLyla/essentials/exes/scode_name
 
-cp /storage/emulated/0/Download/California/projectLyla/Header_files/hfile_name.h  /root/projectLyla/Header_files
-
-cp /storage/emulated/0/Download/California/projectLyla/Header_files/hfile_name.h /root/projectLyla/Linkers
-
-g++ /root/projectLyla/Linkers/scode_name.cpp -o /root/essentials/exes/scode_name
-
-cd essentials
-cd exes
+cd /workspaces/Cpp/projectLyla/essentials/exes
 
 ./scode_name
