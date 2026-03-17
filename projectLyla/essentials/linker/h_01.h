@@ -1,6 +1,9 @@
 #include<iostream>
+#include<string>
 
-void log(const char* msg)
+
+template<typename type>
+void log(type T)
 {
-    std::cout<<msg<<std::endl;
+    std::cout<<T<<std::endl;
 }
