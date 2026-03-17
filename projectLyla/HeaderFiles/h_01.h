@@ -10,3 +10,4 @@ void log(type T)
 {
     std::cout<<T<<std::endl;
 }
+
