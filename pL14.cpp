@@ -26,11 +26,11 @@ int main()
 	{//---> these brackets are used for scope
 		Entity* entity = new Entity(4); // Heap allocation
 		e2 = entity;
-        e2.get();		
+        e2->get();		
 	}
 
 	std::cin.get();
-	delete entity;  //have to delete manually
+	delete e2;  //have to delete manually
 	
 }
 	// we allocate heap if ----> either is true.
