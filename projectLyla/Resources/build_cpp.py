@@ -20,7 +20,7 @@ with open(file_path,'w') as new_file:
 	
 print("Execution Sucessfull !\n ")
 
-os.system("./setup_cpp.bat")   
+os.system(" ./Resources/setup_cpp.bat ")   
 
 
 for old,new in replacements.items():
