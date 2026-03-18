@@ -34,7 +34,7 @@ int main()
     for(int i =0; i<20; i++)
     {
     	char* byte = ((char*)(&num)); //---> casting into char*
-    	std::cout<<(*((int*)(byte + i)))<<std::endl;;// --> here we will get a clear picture of byte by byte
+    	std::cout<<(*((int*)(byte + i)))<<"--> byte "<<i<<std::endl;;// --> here we will get a clear picture of byte by byte
     }
 
     //If you see the address od the num anx array , they vary by 4 bytes , Thats actually what
