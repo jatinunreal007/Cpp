@@ -34,12 +34,9 @@ int main()
     for(int i =0; i<20; i++)
     {
     	char* byte = ((char*)(&num)); //---> casting into char*
-    	std::cout<<(*((int*)(byte + i)))<<std::endl;;// --> here we will get a clear picture of byte by byte
+    	std::cout<<(*((int*)(byte + i)))<<" ";
     }
-
     //If you see the address od the num anx array , they vary by 4 bytes , Thats actually what
     // stack allocation is , they are placed on top of each other like on stacks
     std::cin.get();
-
-    // for heap , they are not found like stacks like close to each other , they lie randomly in ram and could be at any place
 }
