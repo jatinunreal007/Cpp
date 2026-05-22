@@ -1,6 +1,6 @@
 import os  
 
-file_path = "/workspaces/Cpp/projectLyla/Resources/setup_cpp.bat"
+file_path = "./Resources/setup_cpp.sh"
 with open(file_path,'r') as file:
 	data = file.read()
 print("Hello sir ! ")
@@ -20,7 +20,7 @@ with open(file_path,'w') as new_file:
 	
 print("Execution Sucessfull !\n ")
 
-os.system(" ./Resources/setup_cpp.bat ")   
+os.system(" ./Resources/setup_cpp.sh ")   
 
 
 for old,new in replacements.items():

@@ -1,1 +1,2 @@
-python3 /workspaces/Cpp/projectLyla/Resources/build_cpp.py
+@echo off
+python ./Resources/build_cpp.py
