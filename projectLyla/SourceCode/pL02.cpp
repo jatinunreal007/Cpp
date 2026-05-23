@@ -53,3 +53,7 @@ void fn(int* var){
 		std::cout <<newvar<<std::endl;
 		std::cout <<*var<<std::endl;
 	}
+
+//Attempt 2 ------>
+
+
