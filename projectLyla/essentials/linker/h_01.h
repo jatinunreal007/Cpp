@@ -1,3 +1,5 @@
+#pragma once  //----> to prevent copying multiple times
+
 #include<iostream>
 #include<string>
 
